@@ -694,18 +694,6 @@ text-decoration: none;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:1140px) {
 
   .card{
@@ -719,8 +707,6 @@ text-decoration: none;
     top: 25%;
     transform: translate(-50%, -50%);
   }
-
-
 
   .form__bike-img {
     width: 500px;
@@ -825,8 +811,6 @@ text-decoration: none;
   margin-left: 174px;
 }
 
-
-
   .menu {
     margin-right: 0;
   }
@@ -895,10 +879,7 @@ text-decoration: none;
         margin: auto;
         margin-bottom: 15px;
         margin-left: 110px;
-      
   }
-
-
 
   .card {
     top: 30%;
@@ -936,7 +917,6 @@ text-decoration: none;
     margin-bottom: 15px;
   }
 }
-
 
 .banner {
   width: 100%;
@@ -978,7 +958,9 @@ text-decoration: none;
 
 
 .parallax {
-  background-image: url('../images/bike-3.jpgls');
+  background-image: url('../images/bike-3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
   height: 500px;
   background-attachment: fixed;
   display: flex;
